@@ -28,9 +28,7 @@ st.set_page_config(
 
 load_css()
 
-# ------------------------------------------------------------------
-# SESSION STATE DEFAULTS
-# ------------------------------------------------------------------
+
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 if "page" not in st.session_state:

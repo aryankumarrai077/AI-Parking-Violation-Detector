@@ -61,6 +61,5 @@ def render():
                 st.error("Invalid username or password.")
 
         st.markdown('<div class="login-footer">🔒 Authorized personnel only</div>', unsafe_allow_html=True)
-        with st.expander("Demo credentials"):
-            st.caption("admin / admin123  •  officer / officer123")
+       
         st.markdown("</div>", unsafe_allow_html=True)

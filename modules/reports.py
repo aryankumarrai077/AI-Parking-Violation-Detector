@@ -44,6 +44,7 @@ def render():
     report_rows = database.get_reports_table(days=max(days, 2))
 
     # ---------------- TOP METRICS ----------------
+    
     total_violations = sum(r["Violations"] for r in report_rows)
     avg_per_day = round(total_violations / len(report_rows), 1)
     location_counts = pd.Series([v["location"] for v in violations]).value_counts()

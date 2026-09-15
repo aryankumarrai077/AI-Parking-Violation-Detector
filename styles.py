@@ -22,7 +22,7 @@ def load_css():
         }
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
-        header {visibility: hidden;}
+        
 
         /* ---------------- SIDEBAR ---------------- */
         section[data-testid="stSidebar"] {
